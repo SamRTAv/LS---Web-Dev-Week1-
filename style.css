@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(14, 2, 43, 0.9);
+    z-index: 100;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar{
+    justify-content: space-between;
+}
+.nav-links{
+    gap: 20px;
+    list-style: none;
+
+}
+.navbar a{
+    padding: 20px 0;
+    display: inline-block;
+    color: rgb(249, 0, 0);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 40px;
+    font-family: "Ga Maamli", sans-serif;
+}
+.navbar a:hover{
+    color: aquamarine;
+}
+
+.homepage{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: url("Images/Mortal Kombat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.homepage::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(23, 2, 71, 0.3);
+
+}
+
+.homepage .content{
+    position: relative;
+    height: 65%;
+    flex-direction: column;
+    justify-content: center;
+}
+.homepage .text{
+    text-align: center;
+    
+}
+.homepage .text h1{
+    color: rgb(239, 56, 0);
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 170px;
+    margin-bottom: 10px;
+    font-family: "Ga Maamli", sans-serif;
+    -webkit-text-stroke: 1px black;
+}
+.description{
+    color: goldenrod;
+    margin-top: 40px;
+    line-height: 30px;
+    font-family: sans-serif;
+    width: 1100px;
+    /* -webkit-text-stroke: 1px white; */
+}
+.design1{
+    position: relative;
+    height: 100px;
+    background-color: rgba(0, 0, 0);
+    color: rgb(114, 197, 154);
+    text-align: center;
+    font-size: 85px;
+    font-family: "Ga Maamli", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle1{
+    position: relative;
+    height: 115vh;
+    width: 100%;
+    background: url("Images/up middle photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.8; */
+
+
+}
+
+.middle1 .container{
+    text-align: center;
+
+}
+.middle1 .middle1-title{
+    color: rgb(255, 255, 255,1);
+    font-size: 30px;
+
+
+}
+.middle1::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,0.1);
+
+}
+.middle1 .section-title p{
+    font-size: 20px;
+}
+.middle1 .cards{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Ga Maamli", sans-serif;
+}
+.middle1 .card{
+    width: 28%;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(114,197,154);
+    padding: 40px 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background: rgba(0, 0  , 0, 0.9);
+    color: white;
+}
+.middle1 .card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.design2{
+    position: relative;
+    height: 100px;
+    background-color: rgba(0, 0, 0);
+    color: rgb(121, 205, 251);
+    text-align: center;
+    font-size: 85px;
+    font-family: "Ga Maamli", sans-serif;
+}
+
+.middle2{
+    position: relative;
+    height: 130vh;
+    width: 100%;
+    background: url("Images/lower middle photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+
+
+}
+.middle2::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,0.3);
+
+}
+.middle2 .container{
+    text-align: center;
+}
+.middle2 .middle2-title{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+
+}
+.middle2 .cards{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Ga Maamli", sans-serif;
+}
+.middle2 .card{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(114,197,154);
+    padding: 40px 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background: rgba(0, 0  , 0, 0.9);
+    color: white;
+}
+.middle2 .card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+.design3{
+    position: relative;
+    height: 700px;
+    background-color: rgba(0, 0, 0);
+    color: rgb(243, 243, 243);
+    text-align: center;
+    /* font-size: 85px; */
+}
+
+.design3 .design3-title{
+    font-size: 30px;
+    padding: 40px;
+}
+.design3 .cards{
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-family: "Ga Maamli", sans-serif;
+    
+    font-size: 23px;
+}
+.design3 .card{
+    width: 45%;
+    border: 2px solid white;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(114,197,154);
+    padding: 40px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background: rgba(0, 0  , 0, 0.9);
+    color: white;
+}
+.design3 .question{
+    text-align: left;
+    padding-top: 20px;
+}
+.design3 .options{
+    text-align: left;
+    padding-top: 10px;
+}
+#result{
+    color: white;
+}
+.design3 #last{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* padding-top: 110px; */
+    /* line-height: 35px; */
+}
+
+.footer{
+    background-color: rgba(14,2, 43,1);
+    padding: 20px 0;
+    text-align: center;
+}
+.footer span{
+    color: rgb(2, 161, 234);
+}
+.svg-inline--fa {
+   /* font-size: 20px; Adjust the size as needed (e.g., 15px for smaller) */
+   height: 25px;
+   width: 20px;
+
+}
+.container table{
+    border: 2px solid rgb(2, 161,234);
+}
+.container thead th{
+    border: 2px solid rgb(2, 161,234);
+    border-collapse: collapse;
+}
